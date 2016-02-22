@@ -1,0 +1,42 @@
+// Gizza.odl : type library source for Gizza.exe
+
+// This file will be processed by the MIDL compiler to produce the
+// type library (Gizza.tlb).
+
+[ uuid(404CAFA8-A728-4698-866C-14B86D61B2A9), version(1.0) ]
+library Gizza
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+
+	//  Primary dispatch interface for CGizzaDoc
+	
+	[ uuid(C02885D5-4429-4D6F-89F8-9A80906799F5) ]
+	dispinterface IGizza
+	{
+		properties:
+			// NOTE - ClassWizard will maintain property information here.
+			//    Use extreme caution when editing this section.
+			//{{AFX_ODL_PROP(CGizzaDoc)
+			//}}AFX_ODL_PROP
+			
+		methods:
+			// NOTE - ClassWizard will maintain method information here.
+			//    Use extreme caution when editing this section.
+			//{{AFX_ODL_METHOD(CGizzaDoc)
+			//}}AFX_ODL_METHOD
+
+	};
+
+	//  Class information for CGizzaDoc
+	
+	[ uuid(193CCC35-D117-414C-9FBD-6522D60ACEB0) ]
+	coclass Document
+	{
+		[default] dispinterface IGizza;
+	};
+
+	//{{AFX_APPEND_ODL}}
+	//}}AFX_APPEND_ODL}}
+};

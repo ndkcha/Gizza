@@ -1,0 +1,39 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Gizza - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\dHRUSHIT\AppData\Local\Temp\RSP1046.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/Gizza.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"O:\NIRMA\sem V\OOPS\VS6\Pizza\Gizza\OrderBox.cpp"
+]
+Creating command line "cl.exe @C:\Users\dHRUSHIT\AppData\Local\Temp\RSP1046.tmp" 
+Creating temporary file "C:\Users\dHRUSHIT\AppData\Local\Temp\RSP1047.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/Gizza.pdb" /debug /machine:I386 /out:"Debug/Gizza.exe" /pdbtype:sept 
+".\Debug\Gizza.obj"
+".\Debug\GizzaDoc.obj"
+".\Debug\GizzaView.obj"
+".\Debug\MainFrm.obj"
+".\Debug\OrderBox.obj"
+".\Debug\StdAfx.obj"
+".\Debug\Gizza.res"
+]
+Creating command line "link.exe @C:\Users\dHRUSHIT\AppData\Local\Temp\RSP1047.tmp"
+<h3>Output Window</h3>
+Compiling...
+OrderBox.cpp
+O:\NIRMA\sem V\OOPS\VS6\Pizza\Gizza\OrderBox.cpp(227) : warning C4101: 'Value' : unreferenced local variable
+Linking...
+
+
+
+<h3>Results</h3>
+Gizza.exe - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>

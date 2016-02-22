@@ -1,0 +1,13 @@
+REGEDIT
+; This .REG file may be used by your SETUP program.
+;   If a SETUP program is not available, the entries below will be
+;   registered in your InitInstance automatically with a call to
+;   CWinApp::RegisterShellFileTypes and COleObjectFactory::UpdateRegistryAll.
+
+
+HKEY_CLASSES_ROOT\Gizza.Document = Gizza Document
+HKEY_CLASSES_ROOT\Gizza.Document\CLSID = {193CCC35-D117-414C-9FBD-6522D60ACEB0}
+
+HKEY_CLASSES_ROOT\CLSID\{193CCC35-D117-414C-9FBD-6522D60ACEB0} = Gizza Document
+HKEY_CLASSES_ROOT\CLSID\{193CCC35-D117-414C-9FBD-6522D60ACEB0}\ProgId = Gizza.Document
+HKEY_CLASSES_ROOT\CLSID\{193CCC35-D117-414C-9FBD-6522D60ACEB0}\LocalServer32 = GIZZA.EXE
